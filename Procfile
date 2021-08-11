@@ -1,2 +1,1 @@
-web: 0
-worker: npm start
+bot: node main.js
