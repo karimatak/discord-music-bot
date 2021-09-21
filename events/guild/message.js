@@ -13,5 +13,3 @@ module.exports = (Discord, client, message) => {
         console.log(error)
     }
 }
-
-// Add see Aliases for skip and stop
