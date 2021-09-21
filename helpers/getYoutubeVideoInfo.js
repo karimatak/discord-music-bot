@@ -15,7 +15,7 @@ const getYoutubeVideoInfo = async (search) => {
           "q": search
     };
 
-    return (await youtube.search.list(params)).data.items[0];
+    return (await youtube.search.list(params)).data.items[0] ?? getYoutubeVideoInfo("lah in3el ibchi inak");
 }
 
 module.exports = getYoutubeVideoInfo;
